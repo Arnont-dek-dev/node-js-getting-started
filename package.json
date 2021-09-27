@@ -1,16 +1,12 @@
 {
   "name": "node-js-getting-started",
-  "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
-  "engines": {
-    "node": "14.x"
-  },
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
+    "start": "node ./bin/www"
   },
   "dependencies": {
+<<<<<<< HEAD
     "cool-ascii-faces": "^1.3.4",
     "ejs": "^3.1.5",
     "express": "^4.15.2"
@@ -29,4 +25,13 @@
     "express"
   ],
   "license": "MIT"
+=======
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  }
+>>>>>>> 9086922c872fd6a53ba2b708f33dd27086d91b9f
 }
